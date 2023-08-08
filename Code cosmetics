@@ -141,8 +141,39 @@
 
     <!-- More sections and content can be added here -->
 
-    <footer>
-        <p>&copy; 2023 Wahiba Cosmetics. All rights reserved.</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                   <h4>Wahiba Cosmetics</h4>
+                   <ul>
+                     <li><a href="#">À  propos</a></li>
+                     <li><a href="#">Nos services</a></li>
+                     <li><a href="#">Politique de confidentialité</a></li>
+                     <li><a href="#">Emplacement des Magasins</a></li>
+                   </ul>
+                </div>
+                <div class="footer-col">
+                   <h4>Besoin d'aide?</h4>
+                   <ul>
+                     <li><a href="#">Service Client</a></li>
+                     <li><a href="#">FAQ</a></li>
+                     <li><a href="#">Options de paiements</a></li>
+                     <li><a href="#">Statut de livraison</a></li>
+                     <li><a href="#">Expédition</a></li>
+                   </ul>
+                </div>
+                <div class="footer-col">
+                   <h4>Suivez-nous</h4>
+                   <div class="social-links">
+                       <a href=" https://www.facebook.com/profile.php?id=100070012713366&mibextid=2JQ9oc"><i class="fab fa-facebook-f"></i></a>
+                       <a href="https://www.instagram.com/wahibacosmetics/"><i class="fab fa-instagram"></i></a>
+                       <a href="https://www.tiktok.com/@wahibacosmetics?_t=8eg4lTzXwTl&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                   </div>
+                   <p>&copy; 2023 Wahiba Cosmetics. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
     </footer>
     
     <script src="script.js"></script>
@@ -267,12 +298,6 @@
         margin-right: 15px;
     }
 
-    footer {
-        text-align: center;
-        padding: 20px 0;
-        background-color: #000;
-        color: #fbe8b5 ; 
-    }
     .box {
         position: absolute;
         height: 33px;
@@ -335,3 +360,98 @@
         display: block;
         transition: background-color 0.3s;
     }
+
+
+    .footer {
+        text-align: center;
+        padding: 40px 0;
+        background-color: #000;
+    }
+.footer p{    
+    color: #fbe8b5 ; 
+    font-size: 12px;
+    margin-top: 40px;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    text-align: center; /* Add this line */
+}
+
+ul{
+list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px; 
+    box-sizing: border-box;
+    display: inline-block; /* Change this line */
+    vertical-align: top;
+    position: relative;
+}
+  
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    background-color: #fbe8b5;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px; 
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transform: all 0.5s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
