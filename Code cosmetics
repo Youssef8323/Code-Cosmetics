@@ -97,7 +97,7 @@
         align-items: center;
         justify-content: center; /* Add this line to center the navigation links horizontally */
         margin: 0 20px;
-        padding: 500px;
+        padding: 300px;
     }
 
     .nav-links li {
