@@ -27,12 +27,79 @@
 
     <nav>        
      <ul class="nav-links">
-                <li><a href="#">Corps</a></li>
-                <li><a href="#">Hygiène</a></li>
-                <li><a href="#">Cheveux</a></li>
-                <li><a href="#">Solaire</a></li>
-                <li><a href="#">Dispositifs Médicaux</a></li>
-                <li><a href="#">Parapharmacie</a></li>
+                <li>
+                    <a href="#">Visage</a>
+                    <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                </ul>
+                <li>
+                   <a href="#">Corps</a>
+                   <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                   </ul>
+                </li>
+                <li><a href="#">Hygiène</a>
+                   <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                   </ul>
+                </li>
+                <li><a href="#">Cheveux</a>
+                     <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Solaire</a>
+                   <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                   </ul>
+                </li>
+                <li><a href="#">Bébé</a>
+                   <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                   </ul>
+                </li>
+                <li><a href="#">Dispositifs Médicaux</a>
+                   <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                   </ul>        
+                </li>
+                <li><a href="#">Parapharmacie</a>
+                   <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                   </ul>
+                </li>                    
+                <li><a href="#">Offres</a>
+                   <ul class="menu">
+                     <li><a href="#">Crème Hydratante</a></li>
+                     <li><a href="#">Gel douche</a></li>
+                     <li><a href="#">Produit X</a></li>
+                     <li><a href="#">Produit Y</a></li>
+                   </ul>
+                </li>
             </ul>
         </nav>
     
@@ -66,7 +133,7 @@
 
     .top-header {
         background-color: #000;
-        color: #FFE993;
+        color: #fbe8b5;
         text-align: right;
         padding: 30px 0;
     }
@@ -85,7 +152,7 @@
         align-items: center;
         justify-content: center; /* Center horizontally */
         position: absolute;
-        color: #ffe993;
+        color: #fbe8b5;
         z-index: 2;
         height: 50px;
         background-color: #fbe8b5;
@@ -131,7 +198,7 @@
         background-image: url('Ressources/Body%20Image%20Woman%20Skincare.png');
         background-size: cover;
         background-position: center top; /* Center both horizontally and vertically */
-        color: #FFE993; /* Gold */
+        color: #fbe8b5; /* Gold */
         text-align: center;
         padding: 250px 0;
     }
@@ -154,9 +221,9 @@
         display: inline-block;
         padding: 10px 20px;
         background-color: transparent;
-        color: #FFE993;
+        color: #fbe8b5;
         text-decoration: none;
-        border: 2px solid #FFE993;
+        border: 2px solid #fbe8b5;
         border-radius: 5px;
         transition: background-color 0.3s, color 0.3s;
     }
@@ -169,7 +236,7 @@
     .icons li {
         font-size: 20px;
         text-align: right;
-        color: #FFE993;
+        color: #fbe8b5;
         margin-right: 15px;
     }
 
@@ -177,7 +244,7 @@
         text-align: center;
         padding: 20px 0;
         background-color: #000;
-        color: #FFE993 ; /* Gold */
+        color: #fbe8b5 ; /* Gold */
     }
     .box {
         position: absolute;
@@ -185,7 +252,7 @@
         display: flex;
         cursor: pointer;
         padding: 10px; /* Adjust padding to make it fit better */
-        background-color: #FFE993; /* Use the same background color as the icons */
+        background-color: #fbe8b5; /* Use the same background color as the icons */
         border-radius: 30px;
         align-items: center;
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -208,6 +275,39 @@
     }
 
     .box a. fas{ 
-        color: #FFE993; 
+        color: #fbe8b5; 
         font-size: 18px;
+    }
+/* Add this to your existing CSS */
+.menu {
+    position: absolute;
+    top: 100%; /* Position the menu right below its parent */
+    left: 0;
+    background-color: #fbe8b5; /* Dropdown background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none; /* Hide the menu by default */
+    list-style: none;
+    padding: 3px 0;
+    margin: 0;
+    text-align: center; /* Center the items horizontally */
+    width: auto; /* Make the menu width match its parent */
 }
+.nav-links li:hover .menu {
+    display: block;
+    position: absolute;
+}
+
+.menu li {
+    padding: 10px;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000; /* Dropdown item text color */
+    display: block;
+    transition: background-color 0.3s;
+}
+
+
+    
