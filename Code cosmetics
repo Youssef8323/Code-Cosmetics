@@ -27,69 +27,97 @@
 
     <nav>        
      <ul class="nav-links">
-                <li>
-                    <a href="#">Visage</a>
-                    <ul class="menu">
+               <li>
+                   <a href="#">Nouveau</a>
+                   <ul class="menu">
                      <li><a href="#">Crème Hydratante</a></li>
                      <li><a href="#">Gel douche</a></li>
                      <li><a href="#">Produit X</a></li>
                      <li><a href="#">Produit Y</a></li>
+                   </ul>
+                </li>
+               <li>
+                   <a href="#">Nos Marques</a>
+                   <ul class="menu">
+                     <li><a href="#">Vichy</a></li>
+                     <li><a href="#">La Roche Posay</a></li>
+                     <li><a href="#">IsisPharma</a></li>
+                     <li><a href="#">Cerave</a></li>
+                     <li><a href="#">ACM</a></li>
+                     <li><a href="#">Filorga</a></li>
+                     <li><a href="#">Cetaphil</a></li>
+                     <li><a href="#">Bioderma</a></li>
+                     <li><a href="#">SVR</a></li>
+                     <li><a href="#">Uriage</a></li>
+                     <li><a href="#">A-derma</a></li>
+                     <li><a href="#">Klorane</a></li>
+                     <li><a href="#">Sensilis</a></li>
+                     <li><a href="#">Eucérin</a></li>
+                        
+                   </ul>
+                </li>
+                <li>
+                    <a href="#">Visage</a>
+                    <ul class="menu">
+                     <li><a href="#">Crèmes et Soins Hydratants</a></li>
+                     <li><a href="#">Soins anti-âge</a></li>
+                     <li><a href="#">Acné &amp; imperfections</a></li>
+                     <li><a href="#">Gel nettoyant</a></li>
+                     <li><a href="#">Crèmes éclats et dépigmentants</a></li>
+                     <li><a href="#">Yeux</a></li>
+                     <li><a href="#">Masques &amp; Gommages</a></li>    
                 </ul>
                 <li>
                    <a href="#">Corps</a>
                    <ul class="menu">
-                     <li><a href="#">Crème Hydratante</a></li>
-                     <li><a href="#">Gel douche</a></li>
-                     <li><a href="#">Produit X</a></li>
-                     <li><a href="#">Produit Y</a></li>
+                     <li><a href="#">Crèmes et Soins Hydratants</a></li>
+                     <li><a href="#">Gommages &amp; Exfoliants</a></li>
+                     <li><a href="#">Soins des mains</a></li>
+                     <li><a href="#">Soins des pieds</a></li>
                    </ul>
                 </li>
                 <li><a href="#">Hygiène</a>
                    <ul class="menu">
-                     <li><a href="#">Crème Hydratante</a></li>
-                     <li><a href="#">Gel douche</a></li>
-                     <li><a href="#">Produit X</a></li>
-                     <li><a href="#">Produit Y</a></li>
+                     <li><a href="#">Douche &amp; Bain</a></li>
+                     <li><a href="#">Hygiène intime</a></li>
+                     <li><a href="#">Déodorants</a></li>
+                     <li><a href="#">Premiers Soins</a></li>
                    </ul>
                 </li>
                 <li><a href="#">Cheveux</a>
                      <ul class="menu">
-                     <li><a href="#">Crème Hydratante</a></li>
-                     <li><a href="#">Gel douche</a></li>
-                     <li><a href="#">Produit X</a></li>
-                     <li><a href="#">Produit Y</a></li>
+                     <li><a href="#">Shampoing</a></li>
+                     <li><a href="#">Soins</a></li>
+                     <li><a href="#">Coloration</a></li>
                 </ul>
                 </li>
                 <li><a href="#">Solaire</a>
                    <ul class="menu">
-                     <li><a href="#">Crème Hydratante</a></li>
-                     <li><a href="#">Gel douche</a></li>
-                     <li><a href="#">Produit X</a></li>
-                     <li><a href="#">Produit Y</a></li>
+                     <li><a href="#">Protections Solaire</a></li>
+                     <li><a href="#">Bronzage</a></li>
                    </ul>
                 </li>
-                <li><a href="#">Bébé</a>
+                <li><a href="#">Bébé &amp; Maman</a>
                    <ul class="menu">
-                     <li><a href="#">Crème Hydratante</a></li>
-                     <li><a href="#">Gel douche</a></li>
-                     <li><a href="#">Produit X</a></li>
-                     <li><a href="#">Produit Y</a></li>
+                     <li><a href="#">Soins bébé</a></li>
+                     <li><a href="#">Allaitements</a></li>
+                     <li><a href="#">Puériculture</a></li>
+                     <li><a href="#">Change bébé</a></li>
                    </ul>
                 </li>
-                <li><a href="#">Dispositifs Médicaux</a>
+                <li><a href="#">Para-médicale</a>
                    <ul class="menu">
-                     <li><a href="#">Crème Hydratante</a></li>
-                     <li><a href="#">Gel douche</a></li>
-                     <li><a href="#">Produit X</a></li>
-                     <li><a href="#">Produit Y</a></li>
-                   </ul>        
-                </li>
-                <li><a href="#">Parapharmacie</a>
+                     <li><a href="#">Orthopédie</a></li>
+                     <li><a href="#">Maintien à domicile</a></li>
+                     <li><a href="#">Diagnostics &amp; Mesures</a></li>
+                     <li><a href="#">Aides à la mobilité</a></li>
+                     <li><a href="#">Chaussures</a></li>
+                   </ul>
+                </li>     
+                <li><a href="#">Compléments Alimentaires</a>
                    <ul class="menu">
-                     <li><a href="#">Crème Hydratante</a></li>
-                     <li><a href="#">Gel douche</a></li>
-                     <li><a href="#">Produit X</a></li>
-                     <li><a href="#">Produit Y</a></li>
+                     <li><a href="#">Compléments cheveux &amp; ongles</a></li>
+                     <li><a href="#">Vitamines &amp; forme</a></li>
                    </ul>
                 </li>                    
                 <li><a href="#">Offres</a>
@@ -150,7 +178,7 @@
     nav {
         display: flex;
         align-items: center;
-        justify-content: center; /* Center horizontally */
+        justify-content: center; 
         position: absolute;
         color: #fbe8b5;
         z-index: 2;
@@ -162,14 +190,13 @@
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: center; /* Add this line to center the navigation links horizontally */
-        margin: 0 20px;
+        justify-content: center; 
         padding: 300px;
     }
 
     .nav-links li {
         position: relative;
-        margin: 0 15px;
+        margin: 0 18px;
         text-align: center;
     }
 
@@ -191,14 +218,14 @@
 
     .nav-links a {
         text-decoration: none;
-        color: black; /* Gold */
+        color: black; 
     }
 
     .hero {
         background-image: url('Ressources/Body%20Image%20Woman%20Skincare.png');
         background-size: cover;
-        background-position: center top; /* Center both horizontally and vertically */
-        color: #fbe8b5; /* Gold */
+        background-position: center top; 
+        color: #fbe8b5; 
         text-align: center;
         padding: 250px 0;
     }
@@ -244,25 +271,25 @@
         text-align: center;
         padding: 20px 0;
         background-color: #000;
-        color: #fbe8b5 ; /* Gold */
+        color: #fbe8b5 ; 
     }
     .box {
         position: absolute;
         height: 33px;
         display: flex;
         cursor: pointer;
-        padding: 10px; /* Adjust padding to make it fit better */
-        background-color: #fbe8b5; /* Use the same background color as the icons */
+        padding: 10px;
+        background-color: #fbe8b5; 
         border-radius: 30px;
         align-items: center;
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
         top: 3.7%;
-        left: 90.5%; /* Center horizontally */
-        transform: translateX(-50%); /* Center horizontally */
+        left: 90.5%; 
+        transform: translateX(-50%); 
     }
 
     .box:hover input {
-        width: 150px; /* Adjust width as needed */
+        width: 150px; 
     }
 
     .box input {
@@ -278,36 +305,33 @@
         color: #fbe8b5; 
         font-size: 18px;
     }
-/* Add this to your existing CSS */
-.menu {
-    position: absolute;
-    top: 100%; /* Position the menu right below its parent */
-    left: 0;
-    background-color: #fbe8b5; /* Dropdown background color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    display: none; /* Hide the menu by default */
-    list-style: none;
-    padding: 3px 0;
-    margin: 0;
-    text-align: center; /* Center the items horizontally */
-    width: auto; /* Make the menu width match its parent */
-}
-.nav-links li:hover .menu {
-    display: block;
-    position: absolute;
-}
 
-.menu li {
-    padding: 10px;
-    justify-content: center;
-}
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fbe8b5; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        display: none; 
+        list-style: none;
+        padding: 3px 0;
+        margin: 0;
+        text-align: center; 
+        width: auto; 
+    }
+    .nav-links li:hover .menu {
+        display: block;
+        position: absolute;
+    }
 
-.menu a {
-    text-decoration: none;
-    color: #000; /* Dropdown item text color */
-    display: block;
-    transition: background-color 0.3s;
-}
+    .menu li {
+        padding: 10px;
+        justify-content: center;
+    }
 
-
-    
+    .menu a {
+        text-decoration: none;
+        color: #000; 
+        display: block;
+        transition: background-color 0.3s;
+    }
